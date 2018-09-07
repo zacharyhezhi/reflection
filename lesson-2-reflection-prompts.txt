@@ -1,0 +1,32 @@
+What happens when you initialize a repository? Why do you need to do it?
+I initialize a hidden .git file in that directory. .git file give you the right to track files and change files.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+It's the intermediate stage between working directory and the repository. buffer
+The staging area is an intermediate area where I can add changes before
+committing them to the repository.  This allows me to add changes to the
+staging area one-by-one, then commit them all at once, which makes it easier
+to specify what changes should go into each commit.  That makes the commits
+more valuable, since the commit history is easier to navigate when I create
+one commit per logical change.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+I use git add to add the file from working directory to staging area, use git status to check the differece between working directory and staging area, check if the new is ready to commit, then I use git commit to add new file to staging area, this could ensure that one commit per logical change.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+If u want to have another sub-version of the project, u can create a branch ,and make some change on the code to commit that to the branch. u can work on the new feature, fix a bug, experimental branch; switch on different versions of project. 
+
+
+How do the diagrams help you visualize the branch structure?
+The brach show the parent logic for the commits, I can know if it's reachable, how many braches it have.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+There is a new merged branch existed to combine the two codes of braches, it's more intutive.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+U can decide which version of code to be left based on ur own judgement or the team decision. If it's automatic, then it would cause some difficult issues.

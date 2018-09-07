@@ -1,0 +1,55 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Fill in your answer here
+    If I find there is some typo in my new file, I can use diff between two versions of files
+to notice the bug.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Fill in your answer here
+If I want to check the history of editing fieles, I can know who did what kind of change in which time.
+And I can roll back to any history version.
+
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Fill in your answer here
+pros:U can select which part to push, all files or just one file
+Cons:It cost some time to get used to it, and u should remember to push every time u revise it.
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Fill in your answer here 
+Git is more programming oriented, where several files tend to consist one logical group. On the other hand, Google Docs is primarily more targeted for documents created for human readings, in which case each single file consists a meaningful piece.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Fill in your answer here
+git log can be used to show the summaries of all the changes made to the repository
+git diff can be used to show the difference between two files
+
+
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Fill in your answer here
+U can roll back anytime u want, and try the preivous versions until u find which works, u can use diff to find the bugs in ur new files
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
+Using git for maintaining my code 
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Cuz I can roll back to any version I like, and control for the whole process of this project.
+
+
+
